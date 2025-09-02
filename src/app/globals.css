@@ -10,8 +10,6 @@
 	--header-height: 80px;
 }
 
-
-
 /* Minimal Reset */
 * {
 	box-sizing: border-box;
@@ -149,6 +147,7 @@ body {
 	background: var(--primary-purple);
 	color: var(--white);
 	padding: 96px 0 0;
+	overflow: hidden;
 }
 
 .hero__inner {
@@ -207,7 +206,9 @@ body {
 
 .hero__art {
 	width: auto;
+	height: 464px;
 	max-height: 464px;
+	position: relative;
 }
 
 .card-container {
@@ -225,6 +226,8 @@ body {
 .logos {
 	background: var(--white);
 	padding: 95px 0 24px;
+	position: relative;
+	z-index: 10;
 }
 
 .logos__eyebrow {
@@ -241,7 +244,7 @@ body {
 	align-items: center;
 	justify-items: center;
 	justify-content: center;
-  margin: 0 16px;
+	margin: 0 16px;
 	padding: 0;
 }
 
@@ -263,6 +266,8 @@ body {
 .cta {
 	padding: 72px 0;
 	margin: 0 16px;
+	position: relative;
+	z-index: 10;
 }
 
 .cta__card {
@@ -322,6 +327,75 @@ body {
 .site-footer {
 	padding: 10px 0;
 	background: var(--white);
+}
+
+/* Card Mock-up and Replacement */
+
+.card-image-container {
+	display: none;
+}
+
+.mock-card-container {
+	position: relative;
+	top: 109px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.credit-card-container {
+	width: 856px;
+	height: 540px;
+	border-radius: 56px;
+	background: linear-gradient(93deg, #ffffff70, #ffffff40);
+	box-shadow: 0 0 0px 4px #ddd;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 40px;
+	font-size: 40px;
+	zoom: 62%;
+	position: absolute;
+	backdrop-filter: blur(9px);
+}
+
+.left {
+	left: 267px;
+	top: 100px;
+	z-index: 2;
+}
+
+.far-left {
+	left: 29px;
+	top: 357px;
+	z-index: 1;
+}
+
+.center {
+	z-index: 3;
+}
+
+.right {
+	right: 267px;
+	top: 100px;
+	z-index: 4;
+}
+
+.far-right {
+	right: 29px;
+	top: 357px;
+	z-index: 5;
+}
+
+.lower-text {
+	height: 26%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.expiration {
+	margin-left: 100px;
 }
 
 /* Responsive For Mobile through Large Tablet */
@@ -428,5 +502,17 @@ body {
 	.get-started {
 		margin-left: 0 !important;
 		margin-bottom: 12px;
+	}
+
+	.hero__art {
+		height: unset;
+	}
+
+	.card-image-container {
+		display: block;
+	}
+
+	.mock-card-container {
+		display: none;
 	}
 }

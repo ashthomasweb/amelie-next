@@ -1,6 +1,5 @@
 export default function FooterView() {
   return (
-    <footer className="site-footer">
-    </footer>
+    <footer className="site-footer"></footer>
   )
 }

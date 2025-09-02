@@ -16,16 +16,28 @@ export default function HeaderView() {
 
           <nav className="primary-nav" aria-label="Main">
             <ul className="menu">
-              <li><a href="">Home</a></li>
-              <li><a href="#">Products
-                <img className="menu-icon"
-                  src={'./chevron-down.svg'}
-                /></a></li>
-              <li><a href="#">Resources
-                <img className="menu-icon"
-                  src={'./chevron-down.svg'}
-                /></a></li>
-              <li><a href="#">Pricing</a></li>
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="#">Products
+                  <img
+                    className="menu-icon"
+                    src={'./chevron-down.svg'}
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">Resources
+                  <img
+                    className="menu-icon"
+                    src={'./chevron-down.svg'}
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="#">Pricing</a>
+              </li>
             </ul>
           </nav>
         </div>
