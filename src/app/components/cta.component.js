@@ -1,6 +1,5 @@
 export default function CTA() {
   return (
-    <>
       <section className="cta" role="region" aria-labelledby="cta-title">
         <div className="container cta__card">
           <div className="cta__messaging">
@@ -22,6 +21,5 @@ export default function CTA() {
           </div>
         </div>
       </section>
-    </>
   )
 }
