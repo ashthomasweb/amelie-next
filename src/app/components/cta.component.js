@@ -15,10 +15,10 @@ export default function CTA() {
           </div>
 
           <div className="cta__image">
-            <img 
-            // src="<?php echo esc_url(get_theme_file_uri('assets/img/people.jpg')); ?>" 
-            alt="Happy people laughing"
-              width="480" height="400" loading="lazy" decoding="async" />
+            <img
+              src={'/people.jpg'}
+              alt="Happy people laughing"
+              loading="lazy" decoding="async" />
           </div>
         </div>
       </section>

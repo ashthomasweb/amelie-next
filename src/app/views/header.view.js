@@ -4,10 +4,9 @@ export default function HeaderView() {
       <div className="container nav">
         <div className="nav__left-hand">
           <div className="brand">
-
             <a className="btn btn-ghost" href="" rel="home">
               <img
-                // src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/logo.svg' ); ?>"
+                src={'/logo.svg'}
                 alt="Untitled UI"
                 width="28" height="28" decoding="async"
               />
@@ -20,11 +19,11 @@ export default function HeaderView() {
               <li><a href="">Home</a></li>
               <li><a href="#">Products
                 <img className="menu-icon"
-                // src="' . $uri . '/assets/img/chevron-down.svg" alt="" width="12" height="12" 
+                  src={'./chevron-down.svg'}
                 /></a></li>
               <li><a href="#">Resources
                 <img className="menu-icon"
-                // src="' . $uri . '/assets/img/chevron-down.svg" alt="" width="12" height="12" 
+                  src={'./chevron-down.svg'}
                 /></a></li>
               <li><a href="#">Pricing</a></li>
             </ul>
@@ -44,7 +43,7 @@ export default function HeaderView() {
           aria-expanded="false"
         >
           <img
-            // src="<?php echo esc_url( get_template_directory_uri() . '/assets/img/hamburger-menu.svg' ); ?>"
+            src={'/hamburger-menu.svg'}
             alt="Hamburger menu icon"
             width="24" height="24" decoding="async"
           />
