@@ -6,22 +6,22 @@ export default function Logos() {
           <p className="logos__eyebrow">Join 4,000+ companies already growing</p>
           <ul className="logos__grid">
             <li><img
-              // src="<?php echo get_template_directory_uri(); ?>/assets/img/boltshift.svg" 
+            src={'/boltshift.svg'}
               alt="" aria-hidden="true" />Boltshift</li>
             <li><img
-              // src="<?php echo get_template_directory_uri(); ?>/assets/img/lightbox.svg" 
+            src={'/lightbox.svg'}
               alt="" aria-hidden="true" />Lightbox</li>
             <li><img
-              // src="<?php echo get_template_directory_uri(); ?>/assets/img/featherdev.svg" 
+            src={'/featherdev.svg'}
               alt="" aria-hidden="true" />FeatherDev</li>
             <li><img
-              // src="<?php echo get_template_directory_uri(); ?>/assets/img/spherule.svg" 
+            src={'/spherule.svg'}
               alt="" aria-hidden="true" />Spherule</li>
             <li><img
-              // src="<?php echo get_template_directory_uri(); ?>/assets/img/globalbank.svg" 
+            src={'/globalbank.svg'}
               alt="" aria-hidden="true" />GlobalBank</li>
             <li><img
-              // src="<?php echo get_template_directory_uri(); ?>/assets/img/nietzsche.svg" 
+            src={'/nietzsche.svg'}
               alt="" aria-hidden="true" />Nietzsche</li>
           </ul>
         </div>
