@@ -5,9 +5,9 @@ import Logos from "../components/logos.component"
 export default function FrontPageView() {
   return (
    <>
-    <CTA />
     <Hero />
     <Logos />
+    <CTA />
    </>
   );
 }
